@@ -10,10 +10,22 @@ const port = process.env.PORT || 5000; // Used to direct traffic
 app.use(express.static('server/public'));
 
 // Quotes array
-let quotes = 
+let quotes = [{
+  text: 'If you want to go fast, go alone. If you want to go far, go together.',
+  author: 'African Proverb'
+}, ]
+let quotes = [{
+  text: 'If I have seen further than others, it is by standing upon the shoulders of giants.',
+  author: 'Isaac Newton'
+}, ]
+let quotes = [{
+  text: 'Class Nunki, that funky Nunki',
+  author: 'Nunki Cohort'
+}];
 
 // route
-app.get('/quotes', function(req, res) {
+app.get('/quotes', function (req, res) {
   let responseString = 'hello';
+  console.log(quotes);
   res.send(quotes);
 })
