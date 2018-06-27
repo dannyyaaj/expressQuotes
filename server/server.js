@@ -13,12 +13,10 @@ app.use(express.static('server/public'));
 let quotes = [{
   text: 'If you want to go fast, go alone. If you want to go far, go together.',
   author: 'African Proverb'
-}, ]
-let quotes = [{
+}, {
   text: 'If I have seen further than others, it is by standing upon the shoulders of giants.',
   author: 'Isaac Newton'
-}, ]
-let quotes = [{
+}, {
   text: 'Class Nunki, that funky Nunki',
   author: 'Nunki Cohort'
 }];
@@ -26,6 +24,10 @@ let quotes = [{
 // route
 app.get('/quotes', function (req, res) {
   let responseString = 'hello';
-  console.log(quotes);
   res.send(quotes);
-})
+});
+
+// Start up the server
+app.listen(port, function () {
+  console.log('listening on port', port);
+});
