@@ -5,8 +5,9 @@ Create a quotes array on the server. The get request /quotes should send the arr
 
 Each quote should be an object with two properties:
 
-the text for the quote
-the author (person the quote is attributed to)
+* the text for the quote
+* the author (person the quote is attributed to)
+
 You will need to setup Node with express to serve static files from a public folder, and an index.html and client.js file in your public folder in order for this to work.
 
 ## Stretch Goals
