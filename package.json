@@ -1,0 +1,25 @@
+{
+  "name": "expressQuotes",
+  "version": "1.0.0",
+  "description": "Similar to the afternoon lectures, create a new project from the ground up for quotes.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyyaaj/expressQuotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannyyaaj/expressQuotes/issues"
+  },
+  "homepage": "https://github.com/dannyyaaj/expressQuotes#readme"
+}
