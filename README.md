@@ -13,5 +13,6 @@ You will need to setup Node with express to serve static files from a public fol
 ## Stretch Goals
 Add the ability to add new quotes using POST
 Use Bootstrap to style the page. Use a card with a block-quote to nicely lay out each of the quotes.
+
 Add a new server route '/random' that should send back a single random quote.
 Add an image for each quote. You'll need to put the images in your public folder and add a property to the quote objects to hold the image path.
